@@ -75,7 +75,7 @@ function setup {
     echo "#!/usr/bin/env bash" >$RUNFILE
     echo "set -x" >>$RUNFILE
     echo "set -e" >>$RUNFILE
-    echo 'echo "Staring bootstrap"' >>$RUNFILE
+    echo 'echo "Starting bootstrap"' >>$RUNFILE
 }
 
 function run_todo {

@@ -13,6 +13,14 @@ if [ -n "$DISPLAY" ]; then
   $0 default_gui_packages
 fi
 
+$0 git
+$0 myrepos
+$0 vcsh
+$0 pyenv
+$0 mamba
+$0 poetry
+$0 nvm
+$0 gh
 # End Commands
 
 run_todo

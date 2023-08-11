@@ -4,6 +4,7 @@
 is_default_gui_packages_installed() {
     # If you return true/1 here then it is already installed
     [ "$(which synaptic)" != "" ] 
+    true # Force disable this 
 }
 
 install_default_gui_packages() {
