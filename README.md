@@ -50,21 +50,22 @@ Whenever I find a new GUI package that I always want on any system, I add it to 
 Download the main script and make it executable:
 
 ```
-wget -q https://raw.githubusercontent.com/drmikecrowe/linux-bootstrap/master/target/bootstrap.sh
-chmod +x bootstrap-1.0.0.sh
-./bootstrap-1.0.0.sh all
+prefix=~/.local/bin
+curl -Lo ${prefix}/bootstrap.sh https://github.com/corriander/system-bootstrap/releases/latest/download/bootstrap.sh
+chmod +x ${prefix}/bootstrap.sh
+bootstrap.sh all
 ```
 
 You can see all the options as follows:
 
 ```
-./bootstrap-1.0.0.sh
+bootstrap.sh
 ```
 
 You can also install a single item like this:
 
 ```
-./bootstrap-1.0.0.sh goenv
+./bootstrap.sh pyenv
 ```
 
 ## Demonstration
