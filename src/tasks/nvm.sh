@@ -5,7 +5,7 @@ setup
 
 is_nvm_installed() {
     # If you return true/1 here then it is already installed
-    [ "$(which nvm)" != "" ]
+    [ -d "~/.nvm" ] || [ -d "$NVM_DIR" ]
 }
 
 install_nvm() {
