@@ -6,7 +6,7 @@ function install_base_packages() {
     sudo apt update
 
     echo "Installing base packages"
-    sudo apt install -y keychain build-essential jq unzip
+    sudo apt install -y keychain build-essential jq unzip tree
 
     echo "Installing WSL utilities"
     sudo add-apt-repository -y ppa:wslutilities/wslu
