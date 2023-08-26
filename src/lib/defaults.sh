@@ -9,7 +9,7 @@ function install_base_packages() {
     packages=()
 
     # Base packages
-    packages+=(keychain build-essential jq unzip tree)
+    packages+=(keychain build-essential jq unzip tree tmux)
 
     # Neovim dependencies (python3-venv is needed by Mason for installing)
     packages+=(gcc g++ make cmake fd-find ripgrep python3-venv)

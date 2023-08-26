@@ -46,7 +46,9 @@ Whenever I find a new GUI package that I always want on any system, I add it to 
 - Add the package on line 11 to the end of the `sudo apt install`
 - Use that packages executable to in the test in line 6 so it's missing the next time you run
 
-## Running
+## Usage
+
+### Bootstrap a system
 
 Download the main script and make it executable:
 
@@ -67,6 +69,15 @@ You can also install a single item like this:
 
 ```
 ./bootstrap.sh pyenv
+```
+
+### Build and run locally
+
+Assuming you want the option to install everything (`bootstrap.sh all`:
+
+```
+./build.sh
+./target/bootstrap.sh all
 ```
 
 ## Demonstration

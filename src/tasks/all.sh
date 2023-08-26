@@ -21,6 +21,7 @@ $0 mamba
 $0 poetry
 $0 nvm
 $0 gh
+$0 tmuxinator
 # End Commands
 
 run_todo
