@@ -15,6 +15,7 @@ I've experimented with multiple ways to do this (and there are many). This seems
 ## Adapting to Your Needs
 
 - Fork the repo (natually)
+- Install [bashing](https://github.com/xsc/bashing)
 - If you want to use some/all of my defaults:
   - Remove whatever packages you don't want out of `src/tasks/all.sh` (and delete those files in `src/tasks/___.sh`)
 - If you would like to start from scratch:
